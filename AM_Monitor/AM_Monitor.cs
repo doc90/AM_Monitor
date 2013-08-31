@@ -1,12 +1,13 @@
 ﻿using System.Windows.Forms;
 using System.ServiceProcess;
 using System.Drawing;
+using System.Reflection;
 
 namespace AM_Monitor
 {
-    public partial class Form1 : Form
+    public partial class AM_Monitor : Form
     {
-        public Form1()
+        public AM_Monitor()
         {
             InitializeComponent();
         }
@@ -59,8 +60,10 @@ namespace AM_Monitor
             return s;
         }
 
-        private void Form1_Load(object sender, System.EventArgs e)
+        private void AM_Monitor_Load(object sender, System.EventArgs e)
         {
+            string version = Properties.Settings.Default.Version.ToString();
+            this.Text += " - v." + version;
             timer1.Start();
         }
 

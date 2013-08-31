@@ -1,6 +1,6 @@
 ﻿namespace AM_Monitor
 {
-    partial class Form1
+    partial class AM_Monitor
     {
         /// <summary>
         /// Required designer variable.
@@ -120,7 +120,7 @@
             this.MysqlStop.UseVisualStyleBackColor = true;
             this.MysqlStop.Click += new System.EventHandler(this.MysqlStop_Click);
             // 
-            // Form1
+            // AM_Monitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -136,10 +136,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "AM_Monitor";
             this.ShowIcon = false;
             this.Text = "AM Monitor";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.AM_Monitor_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

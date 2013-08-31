@@ -15,7 +15,7 @@ namespace AM_Monitor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new AM_Monitor());
         }
     }
 }
