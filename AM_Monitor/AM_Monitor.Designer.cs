@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AM_Monitor));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.MysqlStatus = new System.Windows.Forms.Label();
             this.ApacheStatus = new System.Windows.Forms.Label();
@@ -134,6 +135,7 @@
             this.Controls.Add(this.ApacheStatus);
             this.Controls.Add(this.MysqlStatus);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AM_Monitor";
